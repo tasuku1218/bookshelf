@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    width: 1000px;
+    margin: 1 ;
+}
+
+header {
+    background: #ffcccc;
+}
+
+#menu{
+    background: #ccccff;
+    width: 300px;
+    float: right;
+}
+#main{
+    background: #ccffcc;
+    width: 700px;
+    float: left;
+}
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+footer{
+    background: #ffccff;
+}
